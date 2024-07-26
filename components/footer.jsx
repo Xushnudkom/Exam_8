@@ -36,7 +36,7 @@ const Index = () => {
             </Link>
    </div>
             <div className='w-full justify-start '>   
-              <div className='justify-end  ml-[180px]'>
+              <div className='justify-end  ml-[100px]'>
               <p className='font-semibold mb-5  text-[18px]'>Контакты</p>         
               <div className='flex gap-2 items-center mt-4  font-normal hover:text-[#FBD029] w-[164px]'>
               <Image src={IconPhone} alt='iconPhone' className='w-5'/>
@@ -51,20 +51,20 @@ const Index = () => {
                 info@gmail.com
               </p>
             </div>
-            <div className='flex gap-2 items-center font-normal -mt-[70px] ml-72 w-64 hover:text-[#FBD029]'>
+            <div className='flex gap-2 items-center font-normal -mt-[70px] ml-[250px] w-64 hover:text-[#FBD029]'>
               <Image src={IconLocation} alt='iconPhone' className='w-5'/>
               <p className='text-[16px] font-normal font-sans'>
                 Tashkent Sh. Chilonzor 9 kvartal 12-uy
               </p>
             </div>
               </div>
-              <div className='ml-[1050px] -mt-[85px]'>
+              <div className='ml-[775px] -mt-[85px]'>
                 <p className='text-[18px] font-semibold'>Подписаться</p>
                 <input type="text" placeholder='support@figma.com' className='pr-5 pl-5 pt-3 pb-3 rounded-xl mt-4 hover:border-0 text-black focus:outline-[#FBD029] transition-all'/>
                 <button className='block bg-[#FBD029] text-[#1F1D14] text-[16px] font-normal pr-5 pl-5 pt-3 pb-3 rounded-xl w-64 mt-4 hover:bg-black hover:text-[#FBD029] transition-all'>Отправить</button>
               </div>
 
-              <div className='flex gap-3 ml-[1060px] mt-[49px]'>
+              <div className='flex gap-3 ml-[780px] mt-[49px]'>
                 <Link href='https://www.instagram.com/' target='_blank' >
                   <Image src={IconInsta} alt='iconinstagram'/>
                 </Link>
@@ -77,15 +77,15 @@ const Index = () => {
                 
               </div>
               
-              <hr className='w-[1735px] mt-10 opacity-45 -ml-96'/>
+              <hr className='w-[1595px] -ml-96 mt-10 opacity-45 '/>
               
              
-             <div className='items-center jus'>
+             <div className='items-center'>
              <p className='font-light text-[12px] -ml-32 mt-4 opacity-85'>
               © 2022 All Rights Reserved
               </p>
 
-              <div className='flex gap-9 ml-[765px] -mt-5 opacity-70'>
+              <div className='flex gap-9 ml-[490px] -mt-5 opacity-70'>
               {
               links.map((item, index)=>{
                 return <Link href={item.path} key={index} className='text-[14px] font-normal hover:text-[#FBD029] transition-all '>

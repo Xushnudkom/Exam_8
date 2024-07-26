@@ -2,7 +2,8 @@ import { Inter } from "next/font/google";
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import ThenHeader from '@/components/main/thenheader'
-import IntroSection from '@/components/main/introsection'
+
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -20,19 +21,17 @@ export default function RootLayout({ children }) {
         
         <Header />
       
-        <div className="h-screen flex flex-col justify-between font-sans bg-[#F2F2F2]">
+          <ThenHeader />
+        <div className=" flex flex-col justify-between font-sans bg-[#F2F2F2]">
         
         <main className="justify-between">
           {children}
-          <ThenHeader />
-          
-          <IntroSection />
         </main>
         
         
         </div>
        
-        <Footer />
+        <Footer className="pt-[1000px]"/>
         </div>
         
       

@@ -23,12 +23,12 @@ const Index = () => {
   return (
     <>
     <div className='justify-start flex gap-4 pt-3 pb-3  bg-[#1F1D14] text-[#FFF]'>
-    <div  className='justify-start flex w-full items-center container mx-auto px-10 max-w-1240'>
+    <div  className='justify-start flex w-full items-center container mx-auto px-10 '>
     <Link href='/' className='flex gap-2 justify-start hover:opacity-80 w-32'>
               <Image src={LogoIcon} alt='logo'/>
               <Image src={LogoTitle} alt='logo_title'/>
             </Link>
-            <div className='w-full flex gap-10 ml-24 justify-start opacity-90 items-center'>
+            <div className='w-full flex gap-6 ml-20 justify-start opacity-90 items-center'>
     
     {
               links.map((item, index)=>{
@@ -38,7 +38,7 @@ const Index = () => {
               })
             }
             
-              <div className='justify-end flex gap-8 ml-[278px]'>
+              <div className='justify-end flex gap-8 ml-[80px]'>
               <div className='flex gap-2 items-center font-normal hover:text-[#FBD029]'>
               <Image src={IconPhone} alt='iconPhone' className='w-5'/>
               <p className='text-[16px] font-normal font-sans items-center'>

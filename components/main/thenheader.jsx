@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import IconCatalog from '@/public/mainimg/icon_catalog.svg'
 import IconSearch from '@/public/mainimg/icon_search.svg'
 import IconUser from '@/public/mainimg/icon_user.svg'
