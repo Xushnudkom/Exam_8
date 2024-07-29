@@ -60,7 +60,7 @@ const Index = () => {
               </div>
               <div className='ml-[775px] -mt-[85px]'>
                 <p className='text-[18px] font-semibold'>Подписаться</p>
-                <input type="text" placeholder='support@figma.com' className='pr-5 pl-5 pt-3 pb-3 rounded-xl mt-4 hover:border-0 text-black focus:outline-[#FBD029] transition-all'/>
+                <input type="text" placeholder='support@figma.com' className='pr-5 pl-5 w-64 pt-3 pb-3 rounded-xl mt-4 hover:border-0 text-black focus:outline-[#FBD029] transition-all'/>
                 <button className='block bg-[#FBD029] text-[#1F1D14] text-[16px] font-normal pr-5 pl-5 pt-3 pb-3 rounded-xl w-64 mt-4 hover:bg-black hover:text-[#FBD029] transition-all'>Отправить</button>
               </div>
 
@@ -85,7 +85,7 @@ const Index = () => {
               © 2022 All Rights Reserved
               </p>
 
-              <div className='flex gap-9 ml-[490px] -mt-5 opacity-70'>
+              <div className='flex gap-9 ml-[510px] -mt-5 opacity-70'>
               {
               links.map((item, index)=>{
                 return <Link href={item.path} key={index} className='text-[14px] font-normal hover:text-[#FBD029] transition-all '>

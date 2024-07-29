@@ -22,7 +22,7 @@ const Carusel = ({text , bg}) => {
         slidesPerView={4}
         navigation
         loop={true}
-        className="mySwiper "
+        className="mySwiper"
       >
         <div className='test-Carusel bg-red-500 '>
             <SwiperSlide style={{borderRadius: 10}}><CaruselCard text={text} bg={bg}/></SwiperSlide>
